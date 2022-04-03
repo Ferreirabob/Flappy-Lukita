@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+  }
+  
+  [wm-flappy] {
+    position: relative;
+    border: 5px solid dodgerblue;
+    margin: 15px;
+    height: 80%;
+    max-height: 600px;
+    width: 80%;
+    max-width: 1500px;
+    background-color: deepskyblue;
+    overflow: hidden;
+  }
+  
+  .play-again {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .play-again button {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Pixel';
+    font-size: 40px;
+    z-index: 2;
+  }
+  
+  .play-again button:active {
+    box-shadow: 1px 1px 6px black;
+  }
+  
+  .my-point {
+    position: absolute;
+    top: 54%;
+    left: 38%;
+    font-size: 29px;
+  }
+  
+  
+  .bird {
+    position: absolute;
+    height: 8%;
+    left: calc(50% - 20%);
+    bottom: 50%;
+  }
+  
+  .pair-of-barrier {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .barrier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .barrier .border {
+    height: 30px;
+    width: 71px;
+    background: linear-gradient(90deg, #639301, #A5E82E);
+    border: 1px solid black;
+  }
+  
+  .barrier .body {
+    height: 100%;
+    width: 65px;
+    background: linear-gradient(90deg, #639301, #A5E82E);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  
+  .progress {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Pixel';
+    font-size: 30pt;
+    z-index: 10;
+  }
