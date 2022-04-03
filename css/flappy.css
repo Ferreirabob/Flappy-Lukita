@@ -41,9 +41,14 @@
     box-shadow: 1px 1px 6px black;
   }
   
-
+  .my-point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 29px;
+  }
   
-  
+ 
   .bird {
     position: absolute;
     height: 8%;
