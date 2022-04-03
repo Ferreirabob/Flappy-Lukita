@@ -27,7 +27,7 @@
     margin: auto;
   }
   
-  .play-again button {
+  .play-again button  .my-point{
     position: absolute;
     top: 40%;
     padding: 10px 20px;
@@ -41,11 +41,7 @@
     box-shadow: 1px 1px 6px black;
   }
   
-  .my-point {
-    position: absolute;
-    top: 50%;
-    font-size: 29px;
-  }
+
   
   
   .bird {
