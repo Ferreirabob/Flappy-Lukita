@@ -30,7 +30,6 @@
   .play-again button {
     position: absolute;
     top: 40%;
-    left: 40%;
     padding: 10px 20px;
     border: none;
     font-family: 'Pixel';
@@ -44,8 +43,8 @@
   
   .my-point {
     position: absolute;
-    top: 54%;
-    left: 38%;
+    top: 50%;
+    left: 43%;
     font-size: 29px;
   }
   
